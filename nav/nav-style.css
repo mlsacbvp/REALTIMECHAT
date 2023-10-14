@@ -8,16 +8,40 @@
     color: #fff;
     padding: 20px;
 }
+
+#nav {
+    display: flex;
+}
+
 #nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 #nav li {
     display: inline-block;
     margin-right: 20px;
 }
-#nav a {
-    color: #fff;
-    text-decoration: none;
+
+#nav input[type="search"] {
+    border: none;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    height: 35px;
+    outline: none;
+    width: 350px;
+}
+
+#nav ul li h1 {
+    font-size: 40px;
+}
+
+.profile svg{
+    filter: invert(1);
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
 }
