@@ -1,0 +1,122 @@
+body {
+    background-color: #f8d7da;
+}
+
+.app-container {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f8d7da;
+    padding: 10px;
+}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-left: 10px;
+}
+
+
+.user-list-container {
+    height: 500px;
+    width: 300px;
+    border-right: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.search-container {
+    display: flex;
+       
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-status {
+    color: green;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.input-container {
+    display: flex;
+}
+
+.chat-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#send-button {
+    padding: 10px;
+    background-color: #ffffff;
+    /* Green */
+    border: none;
+}
+/* Modify this in your CSS */
+#add-button {
+    background-color: #000000;
+    /* White */
+    border: none;
+    color: #ffffff;
+    /* Black */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 100%;
+    /* Make the button round */
+}
+
+#add-button:hover {
+    background-color: #008CBA;
+    /* Light blue */
+    color: white;
+}
+/* Add this to your CSS */
+#search-input {
+    border-radius: 10px;
+}
+/* Add this to your CSS */
+#user-list div {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
