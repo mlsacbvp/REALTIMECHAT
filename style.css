@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open Sans',sans-serif;
+}
+body{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        background:#FFB6C1;
+}
+.container
+{
+        position:relative;
+        width:1396px;
+        max-width:100%;
+        height:calc(100vh - 40px);
+        background:#fff;
+        box-shadow:0 1px 1px 0 rgba(0,0,0,0.06),0 2px 5px 0 rgba(0,0,0,0.06);
+        display:flex;
+}
+.container .leftSide
+{
+        position:relative;
+        flex:30%;
+        background:#D3D3D3;
+        border-right:1px solid #fff;
+}
+
+.container .rightSide
+{
+        position:relative;
+        flex:70%;
+        background:#fff;
+}
+.container .rightSide::before
+{
+        content:'';
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:#FFC0CB;
+        opacity:0.06;
+}
+.header
+{
+        position:relative;
+        width:100%;
+        height:60px;
+        background:#D3D3D3;
+        
+}
+.search_chat
+{
+        position:relative;
+        width:100%;
+        height:50px;
+        background:#D3D3D3;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:0 15px;
+}
+.search_chat div
+{
+        width:100%;
+}
+.search_chat div input
+{
+        width:100%;
+        outline:#000000;
+        border:none;
+        background:#fff;
+        padding:6px;
+        height:38px;
+        border-radius:30px;
+        font-size:14px;
+        padding-left:140px;
+}
+.search_chat div input::placeholder
+{
+        color:#000000;
+}
+.search_chat div ion-icon
+{
+        position:absolute;
+        right:30px;
+        top:14px;
+        font-size:1.2em;
+}
